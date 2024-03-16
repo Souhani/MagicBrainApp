@@ -176,6 +176,7 @@ class App extends  Component {
           <ImageLinkForm onInputChange = {this.onInputChange} onButonSubmit={this.onButonSubmit} loading={this.state.loading} />
           <Rank name = {this.state.user.name} entries = {this.state.user.entries}/>
           <FaceRecognition boxes = {boxes} imgUrl = {imgUrl} sentiment={this.state.sentiment} loading={this.state.loading}/>
+          <div style={{color:"red", width:"100%", display:"flex", justifyContent:"center", margin:"30px"}}> <p>Made with ❤️ by Souhani</p></div>
         </div>
       :(route === 'signin'
          ?<Signin loadUser = {this.loadUser} onRouteChange = {this.onRouteChange}/>
