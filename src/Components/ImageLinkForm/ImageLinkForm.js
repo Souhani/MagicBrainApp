@@ -12,7 +12,7 @@ const ImageLinkForm = ({onInputChange,onButonSubmit, loading})=>{
         <div className='center mx-4'>
          <div className = 'pa4 br3 shadow-5 center form'>
 		    <input className='f4 pa2 w-70 mr1'type ='text'
-               placeholder='Image url, exampe: https://cat.png'
+               placeholder='Image url, exampe: https://face.png'
                onChange={onInputChange} />
 		    <button 
         className = ''
