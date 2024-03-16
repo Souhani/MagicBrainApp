@@ -154,6 +154,7 @@ class App extends  Component {
   const {input, imgUrl, boxes, route, SignedIn, isPrrofileOpen, user} = this.state;
   return (
     <div className="App">
+                <div style={{color:"white", width:"100%", display:"flex", justifyContent:"center", marginTop:"0", position:"absolute", top:"10px"}}> <p>Made with ❤️ by Souhani</p></div>
       <div className="fixed" style={{height:"100vh", width:"100%", zIndex:"-9999"}}>
     <ParticlesBackground/>
       </div>
@@ -176,7 +177,6 @@ class App extends  Component {
           <ImageLinkForm onInputChange = {this.onInputChange} onButonSubmit={this.onButonSubmit} loading={this.state.loading} />
           <Rank name = {this.state.user.name} entries = {this.state.user.entries}/>
           <FaceRecognition boxes = {boxes} imgUrl = {imgUrl} sentiment={this.state.sentiment} loading={this.state.loading}/>
-          <div style={{color:"red", width:"100%", display:"flex", justifyContent:"center", margin:"30px"}}> <p>Made with ❤️ by Souhani</p></div>
         </div>
       :(route === 'signin'
          ?<Signin loadUser = {this.loadUser} onRouteChange = {this.onRouteChange}/>
