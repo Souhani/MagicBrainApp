@@ -154,7 +154,7 @@ class App extends  Component {
   const {input, imgUrl, boxes, route, SignedIn, isPrrofileOpen, user} = this.state;
   return (
     <div className="App">
-                <div style={{color:"white", width:"100%", display:"flex", justifyContent:"center", marginTop:"0", position:"absolute", top:"10px"}}> <p>Made with ❤️ by Souhani</p></div>
+                <div style={{color:"white", width:"100%", display:"flex", justifyContent:"center", marginTop:"0", position:"absolute", top:"10px", zIndex:"-99"}}> <p>Made with ❤️ by Souhani</p></div>
       <div className="fixed" style={{height:"100vh", width:"100%", zIndex:"-9999"}}>
     <ParticlesBackground/>
       </div>
