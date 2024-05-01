@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/MagicBrainApp/static/css/main.19b33644.css",
-    "main.js": "/MagicBrainApp/static/js/main.b121e867.js",
+    "main.js": "/MagicBrainApp/static/js/main.b56738b6.js",
     "static/js/453.cf8ad075.chunk.js": "/MagicBrainApp/static/js/453.cf8ad075.chunk.js",
     "static/media/Brain.png": "/MagicBrainApp/static/media/Brain.7439acc7bc102cfced26.png",
     "index.html": "/MagicBrainApp/index.html",
     "main.19b33644.css.map": "/MagicBrainApp/static/css/main.19b33644.css.map",
-    "main.b121e867.js.map": "/MagicBrainApp/static/js/main.b121e867.js.map",
+    "main.b56738b6.js.map": "/MagicBrainApp/static/js/main.b56738b6.js.map",
     "453.cf8ad075.chunk.js.map": "/MagicBrainApp/static/js/453.cf8ad075.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19b33644.css",
-    "static/js/main.b121e867.js"
+    "static/js/main.b56738b6.js"
   ]
 }
